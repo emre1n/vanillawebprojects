@@ -83,14 +83,14 @@ function createBoilerplate(directoryName, projectTitle, includeFontAwesome) {
   }
   
   body {
-    margin: 0;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    overflow: hidden;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
   }
 `;
 
